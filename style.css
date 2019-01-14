@@ -83,3 +83,17 @@ input {
 	padding: 0.5rem 1rem;
 	text-align: center;
 }
+/*changes*/
+.review:first-child{
+	border-left: 4px solid #2bd184;
+}
+.review:nth-child(2){
+	border-left: 4px solid #d1542b;
+}
+header a{
+	box-shadow: 0 0 7px 1px white;
+}
+.button--add{
+	padding: 0.5em 1em;
+	font-weight: bold;
+}
