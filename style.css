@@ -35,6 +35,16 @@ input {
 	cursor: pointer;
 }
 
+.button--my {
+	border-color: #2bd184;
+	border-style: solid;
+}
+
+.button--add {
+	padding: 1rem 1.5rem;
+	font-weight: bold;
+}
+
 /* Site title and top navigation */
 .site-header {
 	display: flex;
@@ -60,6 +70,16 @@ input {
 	border-radius: 2px;
 	background: #fff;
 	box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+}
+
+.review--positive {
+	border-left-style: solid;
+	border-left-color: #2bd184;
+}
+
+.review--negative {
+	border-left-style: solid;
+	border-left-color: #d1542b;
 }
 
 .review__author {
